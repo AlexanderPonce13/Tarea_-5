@@ -1,69 +1,78 @@
+/* Estilo para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Tipo de fuente para el cuerpo del documento */
+    background-color: #f8f9fa; /* Color de fondo */
+    margin: 0; /* Elimina el margen exterior del cuerpo */
+    padding: 0; /* Elimina el relleno del cuerpo */
 }
 
+/* Estilo para el contenedor principal */
 .container {
-    width: 50%;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 50%; /* Ancho del contenedor */
+    margin: 50px auto; /* Margen superior e inferior de 50px y centrado horizontalmente */
+    background-color: #fff; /* Color de fondo */
+    padding: 30px; /* Relleno interno */
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
+/* Estilo para los encabezados de nivel 2 */
 h2 {
-    text-align: center;
-    color: #333;
-    margin-bottom: 30px;
+    text-align: center; /* Alineación centrada */
+    color: #333; /* Color del texto */
+    margin-bottom: 30px; /* Margen inferior */
 }
 
+/* Estilo para los grupos de formularios */
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Margen inferior */
 }
 
+/* Estilo para las etiquetas */
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+    display: block; /* Visualización como bloque */
+    font-weight: bold; /* Peso de la fuente en negrita */
+    margin-bottom: 5px; /* Margen inferior */
 }
 
+/* Estilo para los campos de entrada de texto, correo electrónico, teléfono y selección */
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 12px; /* Relleno interno */
+    border: 1px solid #ccc; /* Borde con color */
+    border-radius: 5px; /* Borde redondeado */
+    box-sizing: border-box; /* Inclusión del borde y relleno en el ancho total */
 }
 
+/* Estilo para las selecciones */
 select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-image: url('data:image/svg+xml;utf8,<svg fill="#444" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
-    background-repeat: no-repeat;
-    background-position-x: calc(100% - 12px);
-    background-position-y: 50%;
+    appearance: none; /* Suprime los estilos de apariencia predeterminados */
+    -webkit-appearance: none; /* Para navegadores webkit */
+    -moz-appearance: none; /* Para navegadores basados en Gecko */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#444" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Imagen de flecha desplegable */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-position-x: calc(100% - 12px); /* Posición horizontal */
+    background-position-y: 50%; /* Posición vertical */
 }
 
+/* Estilo para los botones */
 button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    display: block; /* Visualización como bloque */
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 12px; /* Relleno interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambio de cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
 }
 
+/* Estilo al pasar el cursor sobre los botones */
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Cambio de color de fondo */
 }
