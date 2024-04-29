@@ -1,59 +1,60 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!-- Declaración del tipo de documento como HTML5 -->
+<html lang="es"> <!-- Etiqueta HTML con especificación del idioma español -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingreso de Datos de Cliente</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+    <meta charset="UTF-8"> <!-- Especificación del conjunto de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista en dispositivos móviles -->
+    <title>Ingreso de Datos de Cliente</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo para estilos -->
 </head>
 <body>
-    <div class="container">
-        <h2>Ingrese los datos del cliente</h2>
+    <div class="container"> <!-- Contenedor principal -->
+        <h2>Ingrese los datos del cliente</h2> <!-- Encabezado -->
         <form id="clienteForm"> <!-- Inicio del formulario con un ID único -->
             <!-- Campo para el nombre del cliente -->
             <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <label for="nombre">Nombre:</label> <!-- Etiqueta para el campo de nombre -->
+                <input type="text" id="nombre" name="nombre" required> <!-- Campo de texto para el nombre -->
             </div>
             <!-- Campo para el correo electrónico del cliente -->
             <div class="form-group">
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
+                <label for="email">Correo electrónico:</label> <!-- Etiqueta para el campo de correo electrónico -->
+                <input type="email" id="email" name="email" required> <!-- Campo de texto para el correo electrónico -->
             </div>
             <!-- Campo para el teléfono del cliente -->
             <div class="form-group">
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono" required>
+                <label for="telefono">Teléfono:</label> <!-- Etiqueta para el campo de teléfono -->
+                <input type="tel" id="telefono" name="telefono" required> <!-- Campo de texto para el teléfono -->
             </div>
             <!-- Campo para la dirección del cliente -->
             <div class="form-group">
-                <label for="direccion">Dirección:</label>
-                <input type="text" id="direccion" name="direccion" required>
+                <label for="direccion">Dirección:</label> <!-- Etiqueta para el campo de dirección -->
+                <input type="text" id="direccion" name="direccion" required> <!-- Campo de texto para la dirección -->
             </div>
             <!-- Campo para la ciudad del cliente -->
             <div class="form-group">
-                <label for="ciudad">Ciudad:</label>
-                <input type="text" id="ciudad" name="ciudad" required>
+                <label for="ciudad">Ciudad:</label> <!-- Etiqueta para el campo de ciudad -->
+                <input type="text" id="ciudad" name="ciudad" required> <!-- Campo de texto para la ciudad -->
             </div>
             <!-- Campo para el país del cliente -->
             <div class="form-group">
-                <label for="pais">País:</label>
-                <input type="text" id="pais" name="pais" required>
+                <label for="pais">País:</label> <!-- Etiqueta para el campo de país -->
+                <input type="text" id="pais" name="pais" required> <!-- Campo de texto para el país -->
             </div>
             <!-- Campo para seleccionar el estado o provincia del cliente -->
             <div class="form-group">
-                <label for="estado">Estado/Provincia:</label>
-                <select id="estado" name="estado" required>
-                    <option value="" disabled selected>-- Seleccione --</option>
-                    <option value="estado1">Estado 1</option>
-                    <option value="estado2">Estado 2</option>
-                    <option value="estado3">Estado 3</option>
-                    <!-- Agrega más opciones según sea necesario -->
+                <label for="estado">Estado/Provincia:</label> <!-- Etiqueta para el campo de estado/provincia -->
+                <select id="estado" name="estado" required> <!-- Lista desplegable para seleccionar el estado/provincia -->
+                    <option value="" disabled selected>-- Seleccione --</option> <!-- Opción predeterminada -->
+                    <option value="estado1">Estado 1</option> <!-- Opción para el estado 1 -->
+                    <option value="estado2">Estado 2</option> <!-- Opción para el estado 2 -->
+                    <option value="estado3">Estado 3</option> <!-- Opción para el estado 3 -->
+                    <!-- Se pueden agregar más opciones según sea necesario -->
                 </select>
             </div>
             <!-- Botón de envío del formulario -->
-            <button type="submit">Enviar</button>
+            <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
         </form>
     </div>
 </body>
 </html>
+
